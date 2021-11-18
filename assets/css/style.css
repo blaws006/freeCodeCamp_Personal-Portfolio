@@ -1,0 +1,39 @@
+:root {
+    --main-blue: #77A7FF;
+    --secondary-blue: #1877F2;
+    --nav-text: #fff;
+}
+
+html, body {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+#navbar {
+    background-color: var(--main-blue);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style: none;
+   
+}
+#navbar li {
+    padding: 5px 0;
+    
+}
+#brandonProfile {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-link a {
+   text-decoration: none; 
+   color: var(--nav-text);
+   font-weight: bold;
+}
+
+.nav-link a:hover {
+    color: var(--secondary-blue);
+ }
