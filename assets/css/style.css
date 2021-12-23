@@ -3,9 +3,11 @@
     --secondary-blue: #1877F2;
     --alt-text: #fff;
     --welcome-section: #6CD1EF;
+    --projects-section: #0083B1;
 }
 
-html, body {
+html,
+body {
     font-family: "Montserrat", Arial, sans-serif;
 }
 
@@ -21,41 +23,77 @@ html, body {
 
 #navbar ul {
     list-style: none;
-    
+
 }
+
 #navbar li {
     padding: 5px 0;
-    
+
 }
+
 #brandonProfile {
     width: 100px;
     border-radius: 50%;
 }
 
 .nav-link a {
-   text-decoration: none; 
-   color: var(--alt-text);
-   font-weight: bold;
+    text-decoration: none;
+    color: var(--alt-text);
+    font-weight: bold;
 }
 
 .nav-link a:hover {
     color: var(--secondary-blue);
- }
+}
 
- #welcome-section {
-     background: var(--welcome-section);
-     height: 66.1em;
-     text-align: center;
- }
+#welcome-section {
+    background: var(--welcome-section);
+    height: 100vh;
+    text-align: center;
+}
 
- .intro {
+.intro {
     color: var(--alt-text);
     text-align: center;
     font-size: 2.5em;
     padding-top: 30rem;
- }
- 
- .sub-intro {
-     font-size: 1.5em;
-     color: var(--alt-text);
- }
+}
+
+.sub-intro {
+    font-size: 1.5em;
+    color: var(--alt-text);
+}
+
+#projects {
+    background: var(--projects-section);
+    margin: 0 auto;
+}
+
+.project-intro {
+    text-align: center;
+    color: var(--alt-text);
+    font-size: 1.75em;
+    padding-top: 10rem;
+    text-decoration: underline;
+
+}
+
+.project-collections {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.collection-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-tile {
+    background: var(--secondary-blue);
+    margin: 1em auto;
+    width: 100%;
+}

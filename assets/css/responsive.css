@@ -1,3 +1,18 @@
+
+ @media screen and (min-width: 750px) {
+    .collection-container {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .project-tile {
+        width: 30rem;
+       
+    }
+} 
 @media screen and (min-width: 1080px) {
     #navbar {
         display: flex;
