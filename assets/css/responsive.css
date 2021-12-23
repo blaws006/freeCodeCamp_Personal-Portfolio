@@ -12,5 +12,7 @@
         align-items: center;
     }
     
-    
+    .intro {
+        padding-top: 25rem;
+    }
 }

@@ -1,7 +1,8 @@
 :root {
     --main-blue: #77A7FF;
     --secondary-blue: #1877F2;
-    --nav-text: #fff;
+    --alt-text: #fff;
+    --welcome-section: #6CD1EF;
 }
 
 html, body {
@@ -9,15 +10,18 @@ html, body {
 }
 
 #navbar {
+    position: fixed;
+    width: 100%;
     background-color: var(--main-blue);
     display: flex;
-    padding: 10px;
+    padding: 3px 10px;
     justify-content: center;
+    clear: both;
 }
 
 #navbar ul {
     list-style: none;
-   
+    
 }
 #navbar li {
     padding: 5px 0;
@@ -30,10 +34,28 @@ html, body {
 
 .nav-link a {
    text-decoration: none; 
-   color: var(--nav-text);
+   color: var(--alt-text);
    font-weight: bold;
 }
 
 .nav-link a:hover {
     color: var(--secondary-blue);
+ }
+
+ #welcome-section {
+     background: var(--welcome-section);
+     height: 66.1em;
+     text-align: center;
+ }
+
+ .intro {
+    color: var(--alt-text);
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30rem;
+ }
+ 
+ .sub-intro {
+     font-size: 1.5em;
+     color: var(--alt-text);
  }
