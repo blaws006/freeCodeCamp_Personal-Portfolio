@@ -4,6 +4,8 @@
     --alt-text: #fff;
     --welcome-section: #6CD1EF;
     --projects-section: #0083B1;
+    --portfolio-description: #2C2A2A;
+    --button: #32CD32;
 }
 
 html,
@@ -93,7 +95,20 @@ body {
 }
 
 .project-tile {
-    background: var(--secondary-blue);
+    background: var(--portfolio-description);
     margin: 1em auto;
     width: 100%;
+}
+
+.project-desc {
+    color: var(--alt-text);
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.visit-project {
+    background: var(--button);
+    color: var(--alt-text);
+    font-weight: 800;
+    margin: 0 0 30px 0;
 }
