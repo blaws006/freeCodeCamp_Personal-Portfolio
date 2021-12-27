@@ -6,6 +6,7 @@
     --projects-section: #0083B1;
     --portfolio-description: #2C2A2A;
     --button: #32CD32;
+    --contact-section: #008081;
 }
 
 html,
@@ -111,4 +112,25 @@ body {
     color: var(--alt-text);
     font-weight: 800;
     margin: 0 0 30px 0;
+}
+
+#contact {
+    background: var(--contact-section);
+    height: 100vh;
+    text-align: center; 
+}
+
+.contact-me {
+    color: var(--alt-text);
+
+}
+
+#profile-link {
+    color: var(--alt-text);
+    text-decoration: none;
+
+}
+
+.contact-me {
+    padding-top: 10rem;
 }
